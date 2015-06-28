@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serilog.Tests.Support", "src\Serilog.Tests.Support\Serilog.Tests.Support.csproj", "{B0056C16-A30C-4F00-A2C6-813B83CD2569}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{303CBE81-B125-4859-9A58-77F008FAAAA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{524C748F-337F-4FF0-B204-950BF5CD2739}"
+	ProjectSection(SolutionItems) = preProject
+		assets\CommonAssemblyInfo.cs = assets\CommonAssemblyInfo.cs
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0056C16-A30C-4F00-A2C6-813B83CD2569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0056C16-A30C-4F00-A2C6-813B83CD2569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0056C16-A30C-4F00-A2C6-813B83CD2569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0056C16-A30C-4F00-A2C6-813B83CD2569}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B0056C16-A30C-4F00-A2C6-813B83CD2569} = {303CBE81-B125-4859-9A58-77F008FAAAA3}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Serilog.Tests.Support</id>
+    <version>$version$</version>
+    <authors>Serilog Contributors</authors>
+    <description>Assertions and supporting classes for testing Serilog and its extensions.</description>
+    <language>en-US</language>
+    <projectUrl>https://github.com/serilog-trace-listener/serilog-tests-support</projectUrl>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <tags>serilog logging trace TraceListener diagnostics</tags>
+    <dependencies>
+      <dependency id="Serilog" version="1.5.7" />
+      <dependency id="NUnit" version="2.6.4" />
+    </dependencies>
+  </metadata>
+</package>
