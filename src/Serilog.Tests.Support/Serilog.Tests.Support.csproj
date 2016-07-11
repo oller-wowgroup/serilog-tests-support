@@ -52,6 +52,7 @@
     </Compile>
     <Compile Include="DelegatingEnricher.cs" />
     <Compile Include="DelegatingSink.cs" />
+    <Compile Include="DummyTest.cs" />
     <Compile Include="Extensions.cs" />
     <Compile Include="LogEventAssert.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
