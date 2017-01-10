@@ -22,7 +22,7 @@ namespace Serilog.Tests.Support
 
         public static void HasProperty(string propertyName, LogEvent logEvent)
         {
-            Assert.That(logEvent.Properties, ContainsEx.Key(propertyName), "Exected property was not found.");
+            Assert.That(logEvent.Properties, Contains.Key(propertyName), "Exected property was not found.");
         }
 
         public static void DoesNotHaveProperty(string propertyName, LogEvent logEvent)
